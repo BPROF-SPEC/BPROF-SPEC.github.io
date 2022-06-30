@@ -1179,6 +1179,7 @@
 
                 <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Üzenet" required></textarea>
+                  <p><strong><i>Az űrlap jelenleg nem fogad üzeneteket, kérjük, emailben keressen!</i></strong></p>
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -1186,7 +1187,7 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit">Küldés</button>
+                  <button type="submit" disabled>Küldés</button>
                 </div>
 
               </div>
@@ -1216,7 +1217,7 @@
           </div>
           <div class="col-lg-6">
             <form action="" method="post">
-              <input type="email" name="email" placeholder="Email cím"><input type="submit" value="Feliratkozom">
+              <input type="email" name="email" placeholder="Email cím"><input type="submit" disabled value="Feliratkozom">
             </form>
           </div>
         </div>
